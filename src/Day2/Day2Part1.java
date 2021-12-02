@@ -25,17 +25,10 @@ public class Day2Part1 {
 
         for(String s : lines){
             String[] splitCommand = s.split(" ");
-            switch (splitCommand[0]){
-                case "forward":
-                    horPos = horPos + Integer.parseInt(splitCommand[1]);
-                    break;
-
-                case "down":
-                    depth = depth + Integer.parseInt(splitCommand[1]);
-                    break;
-
-                case "up":
-                    depth = depth - Integer.parseInt(splitCommand[1]);
+            switch (splitCommand[0]) {
+                case "forward" -> horPos = horPos + Integer.parseInt(splitCommand[1]);
+                case "down" -> depth = depth + Integer.parseInt(splitCommand[1]);
+                case "up" -> depth = depth - Integer.parseInt(splitCommand[1]);
             }
         }
 
