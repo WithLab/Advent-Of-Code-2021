@@ -22,7 +22,6 @@ public class Day2Part2 {
         int depth = 0;
         int horPos = 0;
         int aim = 0;
-
         for(String s : lines){
             String[] splitCommand = s.split(" ");
             switch (splitCommand[0]) {
