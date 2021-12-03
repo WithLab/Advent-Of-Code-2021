@@ -43,7 +43,6 @@ public class Day3Part1 {
             }
         }
 
-        System.out.println("Gamma: " + gamma);
-        System.out.println("Epsilon: " + epsilon);
+        System.out.println(Integer.parseInt(gamma, 2) * Integer.parseInt(epsilon, 2));
     }
 }

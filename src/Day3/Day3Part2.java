@@ -99,16 +99,7 @@ public class Day3Part2 {
             }
         }
 
-        for (String s : oxyList){
-            System.out.println(s);
-        }
+        System.out.println(Integer.parseInt(oxyList.get(0), 2) * Integer.parseInt(coList.get(0), 2));
 
-        for (String s : coList){
-            System.out.println(s);
-        }
-
-        /*for (String s : lines){
-            System.out.println(s);
-        }*/
     }
 }
